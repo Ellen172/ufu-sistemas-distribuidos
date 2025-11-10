@@ -19,5 +19,6 @@ while True:
 		c.send(resp.encode())
 		data = c.recv(1024)
 		text = data.decode()
-	print ('Encerrando conexão')
-	c.close
+
+print ('Encerrando conexão')
+c.close
